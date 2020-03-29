@@ -1,3 +1,26 @@
 body{
-    background-color: aqua;
+    margin: 0;
+}
+h1{
+
+    margin: 0;
+}
+
+.top
+{
+    background-color:#fde2e2;
+}
+
+.top-container
+{
+    width: 200px;
+    height: 200px;
+     background-color: #fcf8f3;
+}
+   
+.bottom-container
+{
+    width: 200px;
+    height: 200px;
+    background-color: #aacfcf;
 }
