@@ -1,21 +1,32 @@
 body{
     margin: 0;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
 }
 h1{
 
-    margin: 0;
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 63px;
 }
-
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
 .top
 {
     background-color:#fde2e2;
+    position: relative;
+    padding-top: 100px;
 }
 
 .top-container
 {
     width: 200px;
     height: 200px;
-     background-color: #fcf8f3;
+    background-color: #fcf8f3;
 }
    
 .bottom-container
@@ -23,4 +34,21 @@ h1{
     width: 200px;
     height: 200px;
     background-color: #aacfcf;
+}
+.top-cloud{
+    position: absolute;
+    right:450px;
+    top:20px;
+}
+.bottom-cloud{
+    position: absolute;
+    left:430px;
+    top: 120px;;
+    
+}
+.mount
+{
+position: relative;
+bottom: 0px;
+
 }
