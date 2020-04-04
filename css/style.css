@@ -77,6 +77,11 @@ a{
     text-decoration: none;
 
 }
+a:hover
+{
+color: #ff5d6c;
+
+}
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
@@ -122,11 +127,15 @@ line-height: 2;
 }
 .btn:hover {
 	background:linear-gradient(to bottom, #ef027d 5%, #f6727f 100%);
-	background-color:#ef027d;
+    background-color:#ef027d;
+    color: #ededed;
 }
 .btn:active {
 	position:relative;
 	top:1px;
 }
-
-        
+.copyright{
+    color:  #ffffff;
+    font-size: 0.94rem;
+    padding:20px 0;
+}
